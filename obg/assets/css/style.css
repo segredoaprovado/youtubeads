@@ -1,0 +1,204 @@
+/**
+* Template Name: Selecao - v4.0.1
+* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  background-color: blue;
+}
+
+a {
+  color: #ef6603;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fc8129;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Disable AOS delay on mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  
+  
+  padding: 0;
+  height: 100vh;
+}
+
+#hero .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  height: 90vh;
+  margin-top: -50px;
+}
+
+
+
+#hero h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#hero h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 35px;
+ 
+  
+}
+
+@media (max-width: 720px){
+  #hero h1{
+    font-size: 20px;
+    
+  }
+}
+
+#hero h4 {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 25px;
+  
+}
+
+#hero p {
+  width: 80%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
+#hero .carousel-control-prev, #hero .carousel-control-next {
+  width: 10%;
+}
+
+#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
+  background: none;
+  font-size: 48px;
+  line-height: 1;
+  width: auto;
+  height: auto;
+}
+
+#hero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 1px;
+  display: inline-block;
+  min-width: 700px;
+  
+  padding: 32px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+ 
+  animation-delay: 0.8s;
+  background-color: #E03A3C;
+  border: 2px solid white;
+
+ 
+
+
+  
+}
+
+#hero .btn-get-started:hover {
+  
+  color: #fff;
+  text-decoration: none;
+
+  transition: 0s;
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+@media (min-width: 1024px) {
+  #hero p {
+    width: 60%;
+  }
+  #hero .carousel-control-prev, #hero .carousel-control-next {
+    width: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero .carousel-container {
+    height: 1200px;
+  }
+
+  
+
+  #hero h2 {
+    font-size: 28px;
+  }
+
+  #hero{
+    height: 1250px;
+    margin-top: -240px;
+  }
+
+}
+
+
+#logo{
+  width: 20%;
+}
+
+
+#botao{
+  width: 45%;
+}
+
+
+
+@media (max-width: 720px){
+  #logo{
+    width: 70%;
+  }
+
+  #hero .btn-get-started {
+    min-width: 100%;
+    line-height: 30px;
+  }
+
+  #hero {
+    margin-top: -350px !important;
+  }
+}
